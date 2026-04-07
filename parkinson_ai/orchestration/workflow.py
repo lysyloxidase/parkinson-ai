@@ -23,11 +23,14 @@ from parkinson_ai.orchestration.decomposer import QueryDecomposer
 from parkinson_ai.orchestration.state import AgentExecution, Task, WorkflowRuntimeState, WorkflowState
 
 try:  # pragma: no cover - optional dependency path
-    from langgraph.graph import END, START, StateGraph
+    from langgraph.graph import END, START
+    from langgraph.graph import StateGraph as _StateGraph
 except ImportError:  # pragma: no cover - fallback when langgraph is unavailable
     END = "__end__"
     START = "__start__"
-    StateGraph = None
+    STATE_GRAPH_CLASS: Any | None = None
+else:
+    STATE_GRAPH_CLASS = _StateGraph
 
 
 class PDMultiAgentWorkflow:
@@ -97,9 +100,9 @@ class PDMultiAgentWorkflow:
     def _build_graph(self) -> Any | None:
         """Compile the LangGraph StateGraph when the dependency is available."""
 
-        if StateGraph is None:
+        if STATE_GRAPH_CLASS is None:
             return None
-        graph_builder = StateGraph(WorkflowRuntimeState)
+        graph_builder = STATE_GRAPH_CLASS(WorkflowRuntimeState)
         graph_builder.add_node("route", self._route_node)
         graph_builder.add_node("specialists", self._specialists_node)
         graph_builder.add_node("sentinel", self._sentinel_node)

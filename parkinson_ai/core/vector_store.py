@@ -16,9 +16,11 @@ except ImportError:  # pragma: no cover - optional dependency
     BM25Okapi = None
 
 try:
-    import chromadb
+    import chromadb as _chromadb
 except ImportError:  # pragma: no cover - optional dependency
-    chromadb = None
+    chromadb: Any | None = None
+else:
+    chromadb = _chromadb
 
 
 @dataclass(slots=True)
