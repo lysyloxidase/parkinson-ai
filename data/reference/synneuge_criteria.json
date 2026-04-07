@@ -1,0 +1,24 @@
+{
+  "source": "Hoglinger et al., Lancet Neurology 2024",
+  "axes": {
+    "S": {
+      "S0": "No alpha-synuclein biomarker evidence.",
+      "S1": "Positive alpha-synuclein biomarker in any tissue or fluid."
+    },
+    "N": {
+      "N0": "No neurodegeneration evidence.",
+      "N1": "Clinical signs of neurodegeneration.",
+      "N2": "Biomarker evidence of neurodegeneration such as abnormal DaTSCAN, NfL, or NM-MRI."
+    },
+    "G": {
+      "G0": "No known PD-associated variants.",
+      "G1": "Risk variants such as mild GBA1 or elevated polygenic burden.",
+      "G2": "Causative variants such as LRRK2, severe GBA1, or SNCA copy-number gain."
+    }
+  },
+  "examples": {
+    "S1N1G0": "Typical sporadic PD",
+    "S0N1G2": "Genetic PD without demonstrable synuclein evidence",
+    "S1N0G0": "Prodromal biological PD"
+  }
+}

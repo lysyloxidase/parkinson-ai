@@ -1,0 +1,16 @@
+{
+  "pathway_id": "hsa05012",
+  "name": "Parkinson disease",
+  "genes": [
+    "SNCA",
+    "LRRK2",
+    "PINK1",
+    "PARK2",
+    "DJ-1",
+    "GBA1",
+    "ATP13A2",
+    "UCHL1",
+    "MAPT",
+    "VPS35"
+  ]
+}

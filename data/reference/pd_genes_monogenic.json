@@ -1,0 +1,84 @@
+{
+  "source": "Curated monogenic PD seed list",
+  "genes": [
+    {
+      "gene": "LRRK2",
+      "inheritance": "AD",
+      "representative_variants": [
+        "G2019S",
+        "R1441C"
+      ]
+    },
+    {
+      "gene": "GBA1",
+      "inheritance": "Risk",
+      "representative_variants": [
+        "N370S",
+        "L444P",
+        "E326K",
+        "T369M"
+      ]
+    },
+    {
+      "gene": "SNCA",
+      "inheritance": "AD",
+      "representative_variants": [
+        "A53T",
+        "duplication",
+        "triplication"
+      ]
+    },
+    {
+      "gene": "PARK2",
+      "inheritance": "AR",
+      "representative_variants": [
+        "exon deletions",
+        "loss-of-function"
+      ]
+    },
+    {
+      "gene": "PINK1",
+      "inheritance": "AR",
+      "representative_variants": [
+        "pathogenic missense",
+        "loss-of-function"
+      ]
+    },
+    {
+      "gene": "DJ-1",
+      "inheritance": "AR",
+      "representative_variants": [
+        "pathogenic missense",
+        "loss-of-function"
+      ]
+    },
+    {
+      "gene": "VPS35",
+      "inheritance": "AD",
+      "representative_variants": [
+        "D620N"
+      ]
+    },
+    {
+      "gene": "ATP13A2",
+      "inheritance": "AR",
+      "representative_variants": [
+        "loss-of-function"
+      ]
+    },
+    {
+      "gene": "FBXO7",
+      "inheritance": "AR",
+      "representative_variants": [
+        "loss-of-function"
+      ]
+    },
+    {
+      "gene": "SYNJ1",
+      "inheritance": "AR",
+      "representative_variants": [
+        "pathogenic variants"
+      ]
+    }
+  ]
+}

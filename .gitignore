@@ -1,0 +1,17 @@
+.venv/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.coverage
+htmlcov/
+.env
+data/chroma/
+data/*.gpickle
+uvicorn_check.log
+uvicorn_check.err.log
+uvicorn_check.pid
+.DS_Store
+Thumbs.db

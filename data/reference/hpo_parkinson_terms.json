@@ -1,0 +1,44 @@
+{
+  "terms": [
+    {
+      "id": "HP:0002063",
+      "name": "Bradykinesia"
+    },
+    {
+      "id": "HP:0002322",
+      "name": "Resting tremor"
+    },
+    {
+      "id": "HP:0001300",
+      "name": "Rigidity"
+    },
+    {
+      "id": "HP:0002355",
+      "name": "Micrographia"
+    },
+    {
+      "id": "HP:0002067",
+      "name": "Hypokinesia"
+    },
+    {
+      "id": "HP:0002172",
+      "name": "Postural instability"
+    },
+    {
+      "id": "HP:0001250",
+      "name": "Seizure-free Parkinsonism placeholder not used"
+    },
+    {
+      "id": "HP:0004409",
+      "name": "REM sleep behavior disorder"
+    },
+    {
+      "id": "HP:0004408",
+      "name": "Hyposmia"
+    },
+    {
+      "id": "HP:0002014",
+      "name": "Constipation"
+    }
+  ]
+}

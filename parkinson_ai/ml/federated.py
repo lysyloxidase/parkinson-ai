@@ -1,0 +1,1 @@
+"""Federated module stub."""

@@ -1,0 +1,72 @@
+{
+  "source": "Simuni et al., Lancet Neurology 2024",
+  "stages": {
+    "0": {
+      "criteria": [
+        "Fully penetrant SNCA genotype",
+        "SAA unknown or unavailable"
+      ],
+      "description": "At risk state before biological confirmation."
+    },
+    "1A": {
+      "criteria": [
+        "SAA positive",
+        "No neurodegeneration evidence",
+        "No clinical symptoms"
+      ],
+      "description": "Biological synucleinopathy without degeneration."
+    },
+    "1B": {
+      "criteria": [
+        "SAA positive",
+        "Neurodegeneration biomarker positive",
+        "No clear clinical symptoms"
+      ],
+      "description": "Biological synucleinopathy with degeneration evidence."
+    },
+    "2A": {
+      "criteria": [
+        "SAA positive",
+        "Subtle motor or non-motor signs",
+        "No functional impairment"
+      ],
+      "description": "Prodromal or very early symptomatic disease without degeneration biomarker requirement."
+    },
+    "2B": {
+      "criteria": [
+        "SAA positive",
+        "Subtle signs",
+        "Neurodegeneration biomarker positive"
+      ],
+      "description": "Prodromal or very early symptomatic disease with biomarker-confirmed degeneration."
+    },
+    "3": {
+      "criteria": [
+        "Manifest bilateral signs",
+        "Early functional impact"
+      ],
+      "description": "Clinically established early PD."
+    },
+    "4": {
+      "criteria": [
+        "Significant disability",
+        "Still broadly independent"
+      ],
+      "description": "Moderately advanced PD."
+    },
+    "5": {
+      "criteria": [
+        "Severe disability",
+        "Wheelchair or bed dependence likely"
+      ],
+      "description": "Advanced PD with severe limitation."
+    },
+    "6": {
+      "criteria": [
+        "Complete dependence",
+        "Institutional or nursing support often required"
+      ],
+      "description": "End-stage dependence."
+    }
+  }
+}
